@@ -11,6 +11,11 @@
     font:2rem;
     text-align: center;
     background-color: red;
+    padding: 2%;
+}
+.containers{
+    display: flex;
+    
 }
 .box{
     width:30%;
@@ -23,7 +28,7 @@
 .image{
     width: 300px;
     height:300px;
-    margin:5%;
+    margin:2% 0 0 15%;
     background-color: grey;
     border-radius:50%
     /* text-align: center; */
