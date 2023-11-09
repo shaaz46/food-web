@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    font-family:cursive;
+
+}
+/* nav-bar */
+body{
+    width: 100%;
+    
+}
+.nav{
+    display: flex;
+    height: 80px;
+    /* background-image: url(/asssets/hero-bg.jpg); */
+    background-color: rgb(197, 191, 191);
+    font-size: 20px;
+    z-index: 999;
+    width:100%;
+    position: fixed;
+}
+
+.title{
+    width:50%;
+    font-size: 4rem;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.sub-title{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-title a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.sub-title a:hover{
+    background-color: rgb(110, 43, 43);
+    padding: 10px;
+    border-radius: 10px;
+}
+/* home-section */
+
+.heading{
+    color: white;
+    position: relative;
+    z-index: 99;
+    left: 10%;
+    bottom: 450px;
+}
+.figure{
+    background-image: url(./asssets/hero-bg.jpg);
+    background-size: contain;
+    position: relative;
+    top: 60px;
+}
+.bg-image{
+    /* z-index: -1; */
+    position: relative;
+    left: 40%;
+}
+.burger{
+    position:absolute;
+    z-index: 99;
+    top: 10%;
+    right: 5%
+}
+.rut{
+    position:absolute;
+    bottom:3px;
+    right: 2px;
+}
+#subheading1{
+    font-size: 2rem;
+}
+/* about section */
+.about{
+    background:linear-gradient(to right, rgb(39, 28, 28),rgb(72, 19, 19));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    padding:15% 0 15% 0;
+}
+.vedio{
+    width: 40%;
+    
+}
+.about-detail{
+    color: white;
+    width: 40%;
+}
+
+/* menu section */
+.menu{
+    /* padding: 10% 0 10% 0; */
+    width: 100%;
+    /* height: 200px; */
+    /* background-color: wheat; */
+}
+.menu-title{
+    font-size: 2.2rem;
+    /* margin: 4%; */
+    text-align: center;
+    color:rgb(110, 43, 43);
+}
+.menu-container{
+    padding: 2%;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.menubox{
+    width:23%;
+    /* height: 300px; */
+    margin: 0 1.5% 0 1.5%;
+    padding: 2%;
+    /* background-color: grey; */
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 2px 2px rgb(119, 113, 113);
+    border-radius: 10px;
+}
+.menubox:hover{
+    transform: scale(1.02);
+}
+.food-image{
+    /* background-image: url(home.jpg); */
+    width: 100%;
+    height:175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .food-image:hover{
+    transform: scale(1.1);
+} */
+#food-image1{
+    background-image: url(/asssets/stat.jpg);
+}
+#food-image2{
+    background-image: url(/asssets/mainc.jpg);
+}
+#food-image3{
+    background-image: url(/asssets/bevrage.jpg);
+}
+#food-image4{
+    background-image: url(asssets/dessert.jpg);
+}
+.food-details{
+    margin-top: 7%;
+}
+
+.menu-container .btn{
+    background-color: rgb(173, 113, 113);
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-top: 2%;
+    /* display: none; */
+    /* width: 50%; */
+    /* text-align: center; */
+    align-items: center;
+    margin: 10%;
+    padding: 5%;
+}
+.menu-container .btn:hover{
+    background-color: rgb(110, 43, 43);
+}
+/* 
+.menbox:hover{
+    animation:showcolor linear infinite;
+}
+
+@keyframes showcolor{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+} */
