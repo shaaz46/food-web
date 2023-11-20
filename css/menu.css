@@ -1,0 +1,125 @@
+*{
+    margin:0
+}
+.food{
+    background-color:black;
+    width: 100%;
+    /* height: 300px; */
+    /* display: flex; */
+}
+.title{
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    padding: 2%;
+    font-family: cursive;
+}
+.containers{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    width:27%;
+    height: 400px;
+    background-color:white;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    text-align: center;
+    margin: 2%;
+    border:0.7px solid rgb(90, 88, 88);
+    border-radius: 20px;;
+    box-shadow: 2px 2px 4px 2px rgba(78, 76, 76, 0.719);
+    padding-top: 2%;
+    opacity: 0.95;
+}
+.box:hover{
+    opacity:2;
+}
+.image{
+    width: 300px;
+    height:300px;
+    margin:2% 0 0 15%;
+    background-color: grey;
+    border-radius:50%;
+    /* text-align: center; */
+    /* background-image: url(home.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#starter1{
+    background-image: url(/asssets/starters/Air\ Fryer\ Crispy\ Chicken\ Wings.webp);
+}
+#starter2{
+    background-image: url(/asssets/starters/Creamy\ Garlic\ &\ Mushroom\ Stuffed\ Bread\ Rolls.webp);
+}
+#starter3{
+    background-image: url(/asssets/starters/Crispy\ Chicken\ Lollipops.webp);
+}
+#starter4{
+    background-image: url(/asssets/starters/Easy\ Chicken\ Satay\ with\ Peanut\ Chilli\ Sauce.webp);
+}
+#starter5{
+    background-image: url(/asssets/starters/Honey\ Garlic\ Chicken\ Skewers.webp);
+}
+#starter6{
+    background-image: url(/asssets/starters/Lamb\ Kofta\ Recipe.webp);
+}
+/* main */
+#mainc1{
+    background-image: url(/asssets/mainc/chicken\ double\ cheese\ pizza.cms );
+}
+#mainc2{
+    background-image: url(/asssets/mainc/Classic\ Sole\ Meunière.webp);
+}
+#mainc3{
+    background-image: url(/asssets/mainc/hyderbad\ biryani.jpg);
+}
+#mainc4{
+    background-image: url(/asssets/mainc/Juicy\ Hamburger.jpg);
+}
+#mainc5{
+    background-image: url(/asssets/mainc/north\ indian\ thali.jpg);
+}
+#mainc6{
+    background-image: url(/asssets/mainc/south\ indian\ thali.jpeg);
+}
+/* bevrages */
+#bevrages1{
+    background-image: url(/asssets/bevrages/blue\ curacao\ mojito.jpg );
+}
+#bevrages2{
+    background-image: url(/asssets/bevrages/chilled\ orange\ juice.jpg);
+}
+#bevrages3{
+    background-image: url(/asssets/bevrages/cocktail\ drink.jpg);
+}
+#bevrages4{
+    background-image: url(/asssets/bevrages/double\ chocolate\ blended\ iced\ mocha.jpg);
+}
+#bevrages5{
+    background-image: url(/asssets/bevrages/Halloween\ mocktail.webp);
+    
+}
+#bevrages6{
+    background-image: url(/asssets/bevrages/iced\ coffee.jpg);
+}
+/* desserts */
+#desserts1{
+    background-image: url(/asssets/desserts/choco\ waffles.jpg );
+}
+#desserts2{
+    background-image: url(/asssets/desserts/chocochip\ cookies.jpg);
+}
+#desserts3{
+    background-image: url(/asssets/desserts/pancake.jpg);
+}
+#desserts4{
+    background-image: url(/asssets/desserts/red\ velvet\ cake.webp);
+}
+#desserts5{
+    background-image: url(/asssets/desserts/sizzling\ brownie\ ice\ cream.jpg);
+}
+#desserts6{
+    background-image: url(/asssets/desserts/choco\ waffles.jpg );
+}
